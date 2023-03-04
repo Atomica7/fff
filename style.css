@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.site_header {
+}
+.ads {
+    background: #35B8BE;
+}
+.main_menu {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: block;
+    width: 150px;
+    height: 60px;
+    background: url(img/icons/logo.svg.svg) center/cover no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+}
+.menu_item {
+    margin-left: 32px;
+}
+.menu_item a{
+    transition: 0.2s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #28224B;
+    text-decoration: none;
+}
+.menu_item a:hover{
+    color: #35B8BE;
+}
+.header_wrapper {
+    position: relative;
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    padding: 100px 0 140px;
+
+}
+
+/* container */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.main_text {
+    width: 50%;
+}
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+
+    letter-spacing: 1.8px;
+    margin-bottom: 27px;
+}
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 134% */
+
+    letter-spacing: 0.36px; 
+}
+.click_order {
+    
+}
+.star_description {
+}
+.star {
+}
+.description {
+}
+.main_img {
+    
+}
+.bg_img {
+    width: 800px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+
+}
+.main_bg {
+    background: #F5FBFC;
+    opacity: 0.87;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 105%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(18deg, 5deg);
+}
+.site_footer {
+}
+
+.btn{
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    text-align: center;
+    padding: 20px 35px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    margin: 53px 0 30px;
+
+    cursor: pointer;
+    width: fit-content;
+}
